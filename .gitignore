@@ -1,0 +1,36 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if you ever add tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and reports
+*.log
+coverage/
+report/
+
+# Build / output folders
+dist/
+build/
+.cache/
+.sass-cache/
+
+# Misc
+*.tmp
+*.swp

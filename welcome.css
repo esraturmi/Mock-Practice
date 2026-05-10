@@ -1,0 +1,60 @@
+
+/* Improved welcome page styling: readable typography, centered card, clear buttons */
+body {
+  background-color: #4e34b6; /* match site purple */
+}
+
+.login-form {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.login-form .content {
+  background: #ffffff;
+  padding: 3rem 2.5rem;
+  max-width: 640px;
+  width: 100%;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#welcome-text {
+  font-size: 2.25rem;
+  line-height: 1.05;
+  color: #4e34b6; /* site accent */
+  margin: 0 0 0.25rem 0;
+  font-weight: 700;
+}
+
+#welcome-sub {
+  color: #666666;
+  margin-bottom: 1.25rem;
+}
+
+.btn {
+  display: inline-block;
+  min-width: 180px;
+  margin: 0.5rem 0.75rem;
+  padding: 12px 22px;
+  border-radius: 28px;
+  background: #4e34b6;
+  color: #fff;
+  border: none;
+  box-shadow: 0 4px 0 rgba(0,0,0,0.08);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn[disabled] { opacity: 0.6; cursor: default; }
+
+@media (max-width: 700px) {
+  .login-form { padding: 20px; }
+  .login-form .content { padding: 2rem; }
+  #welcome-text { font-size: 1.6rem; }
+  .btn { min-width: 140px; padding: 10px 16px; }
+}
+
